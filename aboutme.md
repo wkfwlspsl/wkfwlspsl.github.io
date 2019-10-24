@@ -1,16 +1,11 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### 소개
+- 한성대학교 컴퓨터공학과 학사 (2012~2016)<br>
+- 다우기술 기술지원팀 인턴 (2016.03~2016.07)<br>
+- kh정보교육원 web개발과정 수료(2016.09~2017.03)<br>
+- 시원스쿨 개발팀. web개발 직군 재직 (2017.05~2017.12)<br>
+- (현) 시스포유아이앤씨 그루비사업부 플랫폼개발팀. web개발 직군 재직(2017.12~현재)<br>
