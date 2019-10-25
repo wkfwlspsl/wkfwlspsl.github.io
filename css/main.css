@@ -786,3 +786,8 @@ pre {
   font-style: italic;
   font-size: 16px;
 }
+
+ol>li, ul>li {
+    margin: 0 auto .8em 1.7em;
+    line-height: 1.55;
+}
