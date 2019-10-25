@@ -131,9 +131,7 @@ h1
 			left: calc(#{-$parentWidth / $numDots} + #{$dotWidthSm / 2})
 		&::after
 			right: calc(#{-$parentWidth / $numDots} + #{$dotWidthSm / 2})
-
-
-//MOBILE
+/* MOBILE */
 @media (max-width: 600px)
 	.flex-parent
 		justify-content: initial
@@ -169,4 +167,4 @@ h1
 
 @media (max-width: 400px)
 	body
-		min-height: 950px //just so our links won't get in the way of our content
+		min-height: 950px
