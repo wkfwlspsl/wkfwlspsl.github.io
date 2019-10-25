@@ -199,7 +199,6 @@ gems:
   - jekyll-paginate
   
 sass:
-  sass_dir: _sass
   style: compressed
 
 # Beautiful Jekyll / Dean Attali
