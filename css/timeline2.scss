@@ -1,5 +1,4 @@
 ---
-
 ---
 $numDots: 4
 $parentWidthBase: 0.8
@@ -134,7 +133,7 @@ h1
 			left: calc(#{-$parentWidth / $numDots} + #{$dotWidthSm / 2})
 		&::after
 			right: calc(#{-$parentWidth / $numDots} + #{$dotWidthSm / 2})
-/* MOBILE */
+// MOBILE
 @media (max-width: 600px)
 	.flex-parent
 		justify-content: initial
