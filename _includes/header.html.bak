@@ -1,0 +1,92 @@
+<!-- TODO this file has become a mess, refactor it -->
+
+{% if page.bigimg or page.title %}
+
+<header class="header-section {% if page.bigimg %}has-img{% endif %}" style = 'background-color:white; border:none;'>
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="{{ include.type }}-heading">
+          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
+          {% if include.type == "page" %}
+            <hr class="small">
+            <span class="{{ include.type }}-subheading">BE Developer</span>
+          {% else %}
+            <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+          {% endif %}
+		      {% if include.type == "post" %}
+		        <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+          {% endif %}
+
+          <!-- STEPS -->
+          {% if include.type == "page" %}
+            <section id="Steps" class="steps-section">
+              <div class="steps-timeline">
+                <div class="steps-one">
+                  <img class="steps-img" alt="" />
+                  <h3 class="steps-name">
+			Computer Engineering Hansung.Univ
+                  </h3>
+                  <p class="steps-description">
+                    2012.03 ~ 2016.08
+                  </p>
+                </div>
+                <div class="steps-two">
+                  <img class="steps-img" alt="" />
+                  <h3 class="steps-name">
+                    Intern at DAOU
+                  </h3>
+                  <p class="steps-description">
+                    2016.03 ~ 2016.07
+                  </p>
+                </div>
+
+                <div class="steps-three">
+                  <img class="steps-img" alt="" />
+                  <h3 class="steps-name">
+                    Web Development Training
+                  </h3>
+                  <p class="steps-description">
+                    2016.09 ~ 2017.03
+                  </p>
+                </div>
+                <div class="steps-four">
+                  <img class="steps-img" alt="" />
+                  <h3 class="steps-name">
+                    BE Dev at SiwonSchool
+                  </h3>
+                  <p class="steps-description">
+                    2017.05 ~ 2017.12
+                  </p>
+                </div>
+                <div class="steps-five">
+                  <img class="steps-img" alt="" />
+                  <h3 class="steps-name">
+                    BE Dev at GROOBEE
+                  </h3>
+                  <p class="steps-description">
+                    2017.12 ~
+                  </p>
+                </div>
+              </div>
+            </section>
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 portfolio-div" style="text-align: left">
+			<h3 id="section">Github</h3>
+			<p>
+				<img src="https://ghchart.rshah.org/wkfwlspsl" alt="Github Image">
+			</p>
+		</div>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+{% else %}
+<div class="intro-header"></div>
+{% endif %}
