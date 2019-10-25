@@ -20,6 +20,10 @@ title: DEV Suji
 description: Dev Blog by Suji
 
 # --- Navigation bar options --- #
+navbar-links:
+  About Me: "aboutme"
+  Post: "http://deanattali.com/beautiful-jekyll/"
+  Github: "https://github.com/wkfwlspsl"
 
 # List of links in the navigation bar
 navbar-links:
