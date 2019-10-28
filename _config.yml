@@ -112,7 +112,7 @@ timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 1000
+paginate: 10
 
 kramdown:
   input: GFM
