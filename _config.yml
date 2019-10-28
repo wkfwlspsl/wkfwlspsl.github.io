@@ -23,7 +23,7 @@ description: Dev Blog by Suji
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Post: "http://deanattali.com/beautiful-jekyll/"
+  Archive: "/archive"
   Github: "https://github.com/wkfwlspsl"
 
 # Image to show in the navigation bar - image must be a square (width = height)
