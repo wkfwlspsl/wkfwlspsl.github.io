@@ -22,6 +22,7 @@ description: Dev Blog by Suji
 # --- Navigation bar options --- #
 # List of links in the navigation bar
 navbar-links:
+  Home : "/"
   About Me: "aboutme"
   Archive: "/archive"
   Github: "https://github.com/wkfwlspsl"
