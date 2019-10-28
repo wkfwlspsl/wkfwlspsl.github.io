@@ -20,13 +20,12 @@ title: DEV Suji
 description: Dev Blog by Suji
 
 # --- Navigation bar options --- #
+# List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
   Post: "http://deanattali.com/beautiful-jekyll/"
   Github: "https://github.com/wkfwlspsl"
 
-# List of links in the navigation bar
-navbar-links:
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/profile.jpg"
