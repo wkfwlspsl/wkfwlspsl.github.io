@@ -7,12 +7,12 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="{{ include.type }}-heading">
+        <div class="page-heading">
           <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
           {% if include.type == "about" %}
-            <span class="{{ include.type }}-subheading">BE Developer</span>
+            <span class="page-subheading">BE Developer</span>
           {% else %}
-            <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+            <h2 class="page-subheading">{{ page.subtitle }}</h2>
           {% endif %}
 		      {% if include.type == "post" %}
 		        <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
