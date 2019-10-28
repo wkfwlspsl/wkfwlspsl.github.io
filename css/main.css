@@ -792,6 +792,10 @@ ol>li, ul>li {
     line-height: 1.55;
 }
 
+.archive-list {
+    padding: 35px 0px;
+}
+
 .archive-list-post {
     padding: 0.1rem;
 }
