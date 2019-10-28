@@ -796,8 +796,18 @@ ol>li, ul>li {
     padding: 0.1rem;
 }
 
+.archive-list-post:hover {
+    background-color:#f1f3f5;
+    border-color:transparent;
+    border-radius:10px;
+}
+
 .archive-list-post a {
     color: #343a40;
+}
+
+.archive-list-post a:hover,.archive-list-post a:focus {
+    text-decoration:none
 }
 
 .archive-list-post-title {
