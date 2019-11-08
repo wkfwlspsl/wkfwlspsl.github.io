@@ -665,19 +665,6 @@ pre {
   font-size: 16px;
   line-height: 1.5em;
 }
-.highlight pre {
-  border: none;
-  background: none;
-  margin: 0;
-}
-.highlight > pre {
-  background-image: linear-gradient(
-    rgba(0,0,0,0.06), rgba(0,0,0,0.06) 1.5em, rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.03) 3em);
-  background-size: auto 3em;
-  background-position-y: 10px;
-  border: 1px solid rgba(0,0,0,0.1);
-  border-left: 7px solid #444;
-}
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
 }
