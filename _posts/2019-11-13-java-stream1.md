@@ -9,7 +9,7 @@ title: "[Java] 자바 스트림 API 공부하기(1)"
 <br>
 
 #### Stream API
-Stream API가 나오게 된 가장 주된 이유는 Java에서 선언적 프로그래밍이 가능해졌기 떄문이다.<br>
+Stream API가 나오게 된 가장 주된 이유는 Java에서 선언적 프로그래밍이 가능해졌기 때문이다.<br>
 선언적 프로그래밍은 sql로 예를들면 쉽다.<br>
 ```
 select * from member where id='suji'
@@ -18,7 +18,7 @@ select * from member where id='suji'
 <br>
 Stream API는 거의 모든 것이 람다식으로 이루어져 있다.<br>
 람다식은 "식별자 없이 실행 가능한 함수"라고 설명이 되어있는데 무슨 소리인지 잘 모르겠다.<br>
-나는 "메소드를 따로 재정의하지 않고 사용하는 식" 이렇게 이해를 했다!<br>
+나는 "메소드를 따로 재정의하지 않고 사용할 수 있다!" 이렇게 이해를 했다!<br>
 아래는 람다식의 예시이다<br>
 ```
 public class Calculator {
