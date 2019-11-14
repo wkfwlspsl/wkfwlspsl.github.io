@@ -40,7 +40,7 @@ public class Calculator {
     }
 }
 ```
-[출처] <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#approach1">https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#approach1</a><br>
+[출처] <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax">https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax</a><br>
 <br>
 IntegerMath의 operation 메소드를 재정의하지않고<br>
 람다식으로 덧셈, 뺄셈이 가능한 addition, subtraction 객체를 만들었다.<br>
