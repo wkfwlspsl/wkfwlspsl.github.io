@@ -64,5 +64,6 @@ stream 속의 각 element들은 상호작용하지 않는다.<br>
 모든 element는 독립적이라 stream API는 재귀호출에는 어울리지 않는다.<br>
 <br><br>
 stream에 대해서 조금 공부해본 내용을 적어보았다.<br>
+혹시 제가 잘못 알고있는 정보가 있다면 댓글로 알려주시면.. 감사하겠습니다<br>
 다음번엔 API를 직접 사용해보자!<br>
 To be continue..!
