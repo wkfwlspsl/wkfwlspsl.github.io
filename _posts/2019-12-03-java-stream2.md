@@ -20,7 +20,7 @@ collect
 mapToInt
 toArray
 ```
-
+<br><br>
 #### reduce
 reduce: stream 요소들을 결합하여 새로운 결과를 도출하는 메소드.<br>
 ```
@@ -40,7 +40,7 @@ abc02ㄱㄴㄷ
 strList에 있는 요소들을 stream으로 만들어준 후에 모든 요소들을 더해서 String으로 return해주는 코드다.<br>
 알고리즘 문제를 풀 때, string을 연결하는 로직이 필요할 때가 많은데<br>
 그럴 때 사용하면 매우 유용한 코드다.<br>
-<br>
+<br><br>
 
 #### filter, boxed, collect
 filter: 조건에 맞는 스트림을 반환하는 메소드<br>
@@ -65,7 +65,7 @@ public static void main(String[] args) {
 stdList의 각 요소를 필터링 하면서 0보다 큰 값들만 리스트로 만들어준다<br>
 primitive type을 박싱해서 계산해야할 때, 배열을 리스트로 변환해야할 때 boxed, collect 메소드를 활용하면 유용하고<br>
 리스트 내에서 특정 조건에 맞는 요소만 추출할 때 filter메소드를 활용하면 유용하다<br>
-<br>
+<br><br>
 
 #### mapToInt, toArray
 mapToInt: stream 요소를 int형으로 바꾸는 메소드<br>
@@ -86,6 +86,8 @@ int[] arr: [1, 0, 1, 0]
 모든 stream요소를 array로 변환해주었다.<br>
 
 <br><br>
+예제로 쓰인 모든 코드는 제가 푼 프로그래머스 코드를 인용한 것으로<br>
+제 github의 studyJava 프로젝트에 올라와 있으니 확인이 가능합니다.<br>
 다음 포스팅에서는 distinct, sorted, min, sum, average, getAsDouble, getAsInt <br>
 메소드 사용예제를 보려고 한다.<br>
 To be continue..!
