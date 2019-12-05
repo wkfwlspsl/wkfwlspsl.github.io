@@ -66,7 +66,7 @@ average: 30.0
 
 <br><br>
 예제로 쓰인 모든 코드는 제가 푼 프로그래머스 코드를 인용한 것으로<br>
-제 github의 studyJava 프로젝트에 올라와 있으니 확인이 가능합니다.<br><br>
+<a href="https://github.com/wkfwlspsl/studyJava/tree/master/Programming/src/com/programmers/level1">제 github의 studyJava 프로젝트</a>에 올라와 있으니 확인이 가능합니다.<br><br>
 스트림 API를 사용한 예제들을 몇 개 정리해보며 리마인드 해보았다.<br>
 아직은 스트림 API의 모든 것을 써본 것이 아니라 서툰점도 있지만<br>
 차근차근 더 공부해나가야겠다!<br>

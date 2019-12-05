@@ -84,7 +84,7 @@ int[] arr: [1, 0, 1, 0]
 
 <br><br>
 예제로 쓰인 모든 코드는 제가 푼 프로그래머스 코드를 인용한 것으로<br>
-제 github의 studyJava 프로젝트에 올라와 있으니 확인이 가능합니다.<br><br>
+<a href="https://github.com/wkfwlspsl/studyJava/tree/master/Programming/src/com/programmers/level1">제 github의 studyJava 프로젝트</a>에 올라와 있으니 확인이 가능합니다.<br><br>
 다음 포스팅에서는 distinct, sorted, min, sum, average, getAsDouble, getAsInt <br>
 메소드 사용예제를 정리 해보자.<br>
 To be continue..!
